@@ -1,6 +1,6 @@
 public class PercolationStats {
 
-	private final double conf = 1.96;
+	private final double conf = 1.96000;
 	private final int t, n;
 	private int data[];
 
@@ -47,7 +47,7 @@ public class PercolationStats {
 			p.open(a, b);
 		}
 
-		return p.numberOfOpenSites();
+		return p.numberOfOpenSites() / (n*n);
 	}
 
 	// test client (see below)
