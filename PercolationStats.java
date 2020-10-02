@@ -46,8 +46,8 @@ public class PercolationStats {
 
 			p.open(a, b);
 		}
-
-		return p.numberOfOpenSites() / (n*n);
+		int vol = n*n;
+		return p.numberOfOpenSites() / vol;
 	}
 
 	// test client (see below)
