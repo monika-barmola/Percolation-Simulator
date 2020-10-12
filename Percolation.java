@@ -30,6 +30,7 @@ public class Percolation {
 		openArr[pos] = true;
 		openSites++;
 
+		// here we are trying to percolate by openung adjacent sides
 		if (row == 1) {
 			grid.union(0, pos);
 			if (openArr[pos + n])
