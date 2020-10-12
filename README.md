@@ -1,4 +1,3 @@
-# Percolation
 
 Program to estimate the value of the percolation threshold via Monte Carlo simulation.
 
@@ -65,4 +64,3 @@ To perform a series of computational experiments, a data type PercolationStats w
                  // test client
                  public static void main(String[] args)
 
-              }
